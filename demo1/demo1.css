@@ -1,0 +1,21 @@
+[class^="icon-"], [class*=" icon-"] {
+    vertical-align: middle;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url( 'demo1.png' );
+    background-repeat: no-repeat;
+}
+
+.icon-donut {
+    background-position: 0 -32px;
+}
+.icon-hamburger {
+    background-position: 0 0;
+}
+.icon-hotdog {
+    background-position: -32px 0;
+}
+.icon-pizza {
+    background-position: -64px 0;
+}

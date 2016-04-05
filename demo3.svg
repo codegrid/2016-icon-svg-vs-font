@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="128" viewBox="0 0 256 128">
+
+	<defs>
+		<g id="redCircle">
+			<circle r="10" fill="red"/>
+			<text>Circle</text>
+		</g>
+	</defs>
+
+	<use x="20" y="20" xlink:href="#redCircle"/>
+	<use x="50" y="50" xlink:href="#redCircle"/>
+	<use x="80" y="80" xlink:href="#redCircle"/>
+
+</svg>
+
