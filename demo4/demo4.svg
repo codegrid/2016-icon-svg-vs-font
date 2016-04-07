@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
 
 	<defs>
-		<g id="redCircle">
+		<symbol id="redCircle" viewBox="0 0 20 20" >
 			<circle cx="10" cy="10" r="10" fill="red"/>
 			<text x="0" y="10">Circle</text>
-		</g>
+		</symbol>
 
-		<g id="blueRect">
+		<symbol id="blueRect" viewBox="0 0 20 20" >
 			<rect width="20" height="20" fill="blue"/>
 			<text x="0" y="10">Rect</text>
-		</g>
+		</symbol>
 	</defs>
 
 </svg>
