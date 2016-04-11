@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<input type="range" step="0.1" min="30" max="32" value="30">
+
+<div id="result" style="font-size: 30px;">
+font-size: <span id="current">30</span>px;<br>
+<span class="icon-chicken"></span>
+<span class="icon-cupcake"></span>
+<span class="icon-friedegg"></span>
+<span class="icon-humberger"></span>
+<span class="icon-pizza"></span>
+<span class="icon-banner-pearstore"></span>
+<span class="icon-banner-noodleplay"></span>
+</div>
+
+<script>
+var onchange = function () {
+	current.innerHTML = this.value;
+	result.style.fontSize = this.value + 'px';
+}
+document.querySelector( 'input' ).addEventListener( 'change', onchange );
+document.querySelector( 'input' ).addEventListener( 'input', onchange );
+</script>
+</body>
+</html>

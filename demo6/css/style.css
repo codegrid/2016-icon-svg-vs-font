@@ -1,0 +1,72 @@
+[class^="icon-"]:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url("../SVGSprite.svg");
+  background-repeat: no-repeat;
+  position: relative;
+  top: -0.1em; }
+
+.icon-banner-pearstore:before {
+  width: 3.125em;
+  height: 1em;
+  background-position: 0em 0em;
+  background-size: 132% 300%; }
+
+.icon-banner-noodleplay:before {
+  width: 2.96875em;
+  height: 1em;
+  background-position: 0em -1em;
+  background-size: 138.94737% 300%; }
+
+.icon-chicken:before {
+  width: 1em;
+  height: 1em;
+  background-position: 0em -2em;
+  background-size: 412.5% 300%; }
+
+.icon-cupcake:before {
+  width: 1em;
+  height: 1em;
+  background-position: -1em -2em;
+  background-size: 412.5% 300%; }
+
+.icon-friedegg:before {
+  width: 1em;
+  height: 1em;
+  background-position: -2em -2em;
+  background-size: 412.5% 300%; }
+
+.icon-humberger:before {
+  width: 1em;
+  height: 1em;
+  background-position: -3.125em 0em;
+  background-size: 412.5% 300%; }
+
+.icon-pizza:before {
+  width: 1em;
+  height: 1em;
+  background-position: -3.125em -1em;
+  background-size: 412.5% 300%; }
+
+.navItem {
+  font-size: 20px;
+  position: relative;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #221111;
+  background: #996600; }
+
+.navItem:after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url("../SVGSprite.svg");
+  background-repeat: no-repeat;
+  background-position: -125px 0px;
+  background-size: 412.5% 300%;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  right: 10px; }
